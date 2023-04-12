@@ -10,6 +10,7 @@ public class Main {
         nesne2.sayi=20;
         nesne3.sayi=30;
 
+        // Düğümleri birbirine bağlama
         nesne1.next = nesne2;
         nesne2.next = nesne3;
         nesne3.next = null;
