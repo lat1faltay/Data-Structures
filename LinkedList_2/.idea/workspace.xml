@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4db5674c-6545-4100-9856-d24ef3f87116" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList_2/ListeYapisi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList_2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList_2/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListeYapisi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/dugumOlusturma.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/src/ClassOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dugumOlusturma/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Oz8Y9VF83tBnWScNssvDzXBi7K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4db5674c-6545-4100-9856-d24ef3f87116" name="Changes" comment="" />
+      <created>1682552095251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682552095251</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -34,13 +34,14 @@ public class ListeYapisi {
             System.out.println("Liste yapısı boştur");
         }else {
             // temp geçici bir düğümdür
-            Node temp = head;
+            Node temp = head; // temp'e head'in değerini atıyoruz
 
             System.out.print("\nBaş -> ");
 
+            // temp null olmadığı zamanlarda
             while (temp != null){
-                System.out.print(temp.data + " -> " );
-                temp=temp.next;
+                System.out.print(temp.data + " -> " ); // temp'i yazdır
+                temp=temp.next; // temp'in değerini bir sonri düğümün değerine eşitle (next field'ı burada pointer görevi görmektedir)
             }
             System.out.println("Son");
 
