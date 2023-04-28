@@ -61,7 +61,7 @@ public class TekYonluListeYapisi {
 
         if (head == null && indis == 0) {
             // elemanın next'i null değerine eşittir
-            // yani sıradaki eleman eklenene kadar sondaki düğüm null değerini göstermektedir
+            // yani sıradaki eleman eklenene kadar düğüm null değerini göstermektedir
             eleman.next = null;
             // ilk düğüm head'dir
             head = eleman;
@@ -69,11 +69,11 @@ public class TekYonluListeYapisi {
             tail = eleman;
             System.out.println("Liste yapısı oluşturuldu ilk eleman eklendi");
         } else if (head != null && indis == 0) {
-            // Head'in önüne elemanı ekledik
+            // Head'i bir ileri kaydırdık
             eleman.next = head;
-            // head'i güncelledik
+            // head'i güncelleyip yeni değerini atadık
             head = eleman;
-            System.out.println(indis + " indisinci sıraya eleman eklendi");
+            System.out.println(indis + ". sıraya eleman eklendi");
         } else {
             int n = 0;
             Node temp = head;
