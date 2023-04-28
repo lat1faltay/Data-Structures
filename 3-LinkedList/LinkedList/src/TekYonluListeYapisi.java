@@ -120,7 +120,7 @@ public class TekYonluListeYapisi {
         }
     }
 
-    void sondanSil () {
+    void sondanSil() {
         if (head == null) {
             System.out.println("Liste boş, silinecek nesne yok");
         } else if (head.next == null) {
@@ -137,8 +137,46 @@ public class TekYonluListeYapisi {
             temp2.next = null;
             tail = temp2;
             System.out.println("Sondaki eleman silindi");
+        }
+    }
+
+    void aradanSil(int indis) {
+        if (head == null) {
+            System.out.println("Liste Boş, silinecek eleman yok");
+        } else if (head.next == null && indis == 0) {
+            head = null;
+            tail = null;
+            System.out.println("Listede kalan son eleman silindi");
+        } else if (head.next != null && indis == 0) {
+            head = head.next;
+            System.out.println("Baştaki eleman silindi");
+        } else {
+            int i = 0;
+            Node temp = head;
+            Node temp2 = head;
+            while (temp != null) {
+                i++;
+                temp2 = temp;
+                temp = temp.next;
+            }
+            if (i == indis) {
+                temp2.next = null;
+                tail = temp2;
+                System.out.println("Listedeki son sıradaki eleman silindi");
+            } else {
+                temp = head;
+                temp2 = head;
+                int j = 0;
+                while (j != indis) {
+                    temp2 = temp;
+                    temp = temp.next;
+                    j++;
+                }
+                temp2.next = temp.next;
+                System.out.println("Aradaki nesne silindi");
             }
         }
+    }
 
     void yazdir() {
         if (head == null) {
