@@ -46,4 +46,44 @@ public class OgrListe {
 
     }
 
+    void sil() {
+        if (head == null) {
+            System.out.println("Liste boş, silinecek öğrenci yok!!!");
+        } else {
+            System.out.println("Silmek istediğiniz öğrencinin numarasını giriniz : ");
+            numara = scanner.nextInt();
+
+            if (numara == head.numara && head.next == null) {
+                head = null;
+                tail = null;
+                System.out.println(numara + " numaralı öğrenci silindi, listede kayıtlı öğrenci kalmadı");
+            } else if (numara == head.numara && head.next != null) {
+                head = head.next;
+                System.out.println(numara + " numaralı öğrenci silindi");
+            } else {
+
+                temp = head;
+                temp2 = head;
+                while (temp.next != null) {
+                    if (numara == temp.numara) {
+                        // anlamadım
+                        temp2.next = temp.next;
+                        System.out.println(numara + " numaralı öğrenci silindi ");
+                    }
+                    temp2 = temp;
+                    temp = temp.next;
+                }
+                if (numara == temp.numara) {
+                    // anlamadım
+                    temp2.next = null;
+                    tail = temp2;
+                    System.out.println(numara + " numaralı öğrenci silindi ");
+                }
+
+            }
+
+        }
+    }
+
+
 }
