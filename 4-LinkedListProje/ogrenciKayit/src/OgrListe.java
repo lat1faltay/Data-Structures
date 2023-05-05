@@ -105,5 +105,38 @@ public class OgrListe {
         }
     }
 
+    void enBasariliOgrenci(){
+        if(head == null){
+            System.out.println("Liste boştur");
+        }else {
+            temp = head;
+            double buyuk = temp.ortalama;
+            while(temp != null){
+
+                if(buyuk > temp.ortalama){
+                    buyuk = temp.ortalama;
+                    numara = temp.numara;
+
+                    ad= temp.ad;
+                    soyad = temp.soyad;
+                    vize = temp.vize;
+                    fin = temp.fin;
+                    ortalama=temp.ortalama;
+                    durum = temp.durum;
+                }
+
+                temp = temp.next;
+            }
+            System.out.println("en başarılı öğrenci bilgileri");
+            System.out.println("***********************");
+            System.out.println("ad: " + ad);
+            System.out.println("Soyad: " + soyad);
+            System.out.println("Vize: " + vize);
+            System.out.println("Final: " + fin);
+            System.out.println("Ortalama: " + ortalama);
+            System.out.println("Durum: " + durum);
+            System.out.println("***********************");
+        }
+    }
 
 }
