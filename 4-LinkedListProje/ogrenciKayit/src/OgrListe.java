@@ -85,5 +85,25 @@ public class OgrListe {
         }
     }
 
+    void yazdir(){
+        if(head == null){
+            System.out.println("Liste boştur");
+        }else {
+            temp = head;
+            while(temp != null){
+                System.out.println(temp.numara + " numaralı öğrenci bilgileri");
+                System.out.println("***********************");
+                System.out.println("ad: " + temp.ad);
+                System.out.println("Soyad: " + temp.soyad);
+                System.out.println("Vize: " + temp.vize);
+                System.out.println("Final: " + temp.fin);
+                System.out.println("Ortalama: " + temp.ortalama);
+                System.out.println("Durum: " + temp.durum);
+                System.out.println("***********************");
+                temp = temp.next;
+            }
+        }
+    }
+
 
 }
