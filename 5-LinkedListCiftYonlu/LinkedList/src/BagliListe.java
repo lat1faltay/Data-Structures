@@ -4,39 +4,39 @@ public class BagliListe {
     Node head = null;
     Node tail = null;
 
-    void basaEkle(int data){
+    void basaEkle(int data) {
         Node eleman = new Node(data);
 
-        if(head == null){
+        if (head == null) {
             head = eleman;
             tail = eleman;
-        }else{
+        } else {
             eleman.next = head;
             head.prev = eleman;
             head = eleman;
         }
     }
 
-    void sonaEkle(int data){
+    void sonaEkle(int data) {
         Node eleman = new Node(data);
 
-        if(head == null){
+        if (head == null) {
             head = eleman;
             tail = eleman;
-        }else{
+        } else {
             eleman.next = eleman;
             eleman.prev = tail;
             tail = eleman;
         }
     }
 
-    void yazdir(){
+    void yazdir() {
         Node temp = head;
         System.out.print("Baş -> ");
-        if(temp != null){
-            System.out.print(temp.data + " -> " );
+        if (temp != null) {
+            System.out.print(temp.data + " -> ");
         }
-        System.out.println(" -> Son");
+        System.out.println(tail.data + " -> Son");
     }
 
 }
