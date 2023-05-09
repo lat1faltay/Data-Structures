@@ -30,4 +30,13 @@ public class BagliListe {
         }
     }
 
+    void yazdir(){
+        Node temp = head;
+        System.out.print("Baş -> ");
+        if(temp != null){
+            System.out.print(temp.data + " -> " );
+        }
+        System.out.println(" -> Son");
+    }
+
 }
