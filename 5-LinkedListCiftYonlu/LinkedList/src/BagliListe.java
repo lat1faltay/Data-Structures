@@ -17,4 +17,17 @@ public class BagliListe {
         }
     }
 
+    void sonaEkle(int data){
+        Node eleman = new Node(data);
+
+        if(head == null){
+            head = eleman;
+            tail = eleman;
+        }else{
+            eleman.next = eleman;
+            eleman.prev = tail;
+            tail = eleman;
+        }
+    }
+
 }
