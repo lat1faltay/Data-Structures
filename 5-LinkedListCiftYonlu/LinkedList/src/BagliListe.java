@@ -37,7 +37,7 @@ public class BagliListe {
             System.out.print(temp.data + " -> ");
             temp = temp.next;
         }
-        System.out.println(" -> Son");
+        System.out.println("Son");
     }
 
     void sondanYazdir() {
