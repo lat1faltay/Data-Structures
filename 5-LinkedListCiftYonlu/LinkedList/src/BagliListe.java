@@ -47,7 +47,7 @@ public class BagliListe {
             System.out.print(temp.data + " -> ");
             temp = temp.prev;
         }
-        System.out.println(" -> Baş");
+        System.out.println("Baş");
     }
 
 }
