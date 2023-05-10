@@ -10,6 +10,7 @@ public class Main {
         while(secim != 0){
             System.out.println("1. Başa ekle");
             System.out.println("2. Sona ekle");
+            System.out.println("3. Sondan başa yazdır");
             System.out.println("0. Çıkış");
             System.out.print("Seçiminiz: ");
             secim = scanner.nextInt();
@@ -18,12 +19,12 @@ public class Main {
                 System.out.println("Sayı: ");
                 sayi = scanner.nextInt();
                 bagliListe.basaEkle(sayi);
-            }
-
-            if(secim == 2){
+            }else if(secim == 2){
                 System.out.println("Sayı: ");
                 sayi = scanner.nextInt();
                 bagliListe.sonaEkle(sayi);
+            }else if(secim == 3){
+                bagliListe.sondanYazdir();
             }
 
             bagliListe.yazdir();

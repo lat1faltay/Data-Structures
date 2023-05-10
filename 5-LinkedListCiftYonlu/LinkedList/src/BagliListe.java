@@ -40,4 +40,14 @@ public class BagliListe {
         System.out.println(" -> Son");
     }
 
+    void sondanYazdir() {
+        Node temp = tail;
+        System.out.print("Son -> ");
+        while (temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.prev;
+        }
+        System.out.println(" -> Baş");
+    }
+
 }
