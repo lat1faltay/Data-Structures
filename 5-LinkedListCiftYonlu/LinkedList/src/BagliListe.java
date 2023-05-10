@@ -24,7 +24,7 @@ public class BagliListe {
             head = eleman;
             tail = eleman;
         } else {
-            eleman.next = eleman;
+            tail.next = eleman;
             eleman.prev = tail;
             tail = eleman;
         }
