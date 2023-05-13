@@ -30,6 +30,48 @@ public class BagliListe {
         }
     }
 
+    void arayaEkle(int indis, int data) {
+
+        Node eleman = new Node(data);
+
+        if (head == null) {
+            head = eleman;
+            tail = eleman;
+        } else if( head != null && indis == 0) {
+            eleman.next = head;
+            head.prev = eleman;
+            head = eleman;
+        }else{
+
+            int n = 0;
+            Node temp = head;
+            while(temp != null){
+                temp = temp.next;
+                n++;
+            }
+            temp = head;
+
+            if ( indis > n ){
+                tail.next = eleman;
+                eleman.prev = tail;
+                tail = eleman;
+            }else{
+                int i = 0;
+                while(1 != indis){
+                    temp = temp.next;
+                    i++;
+                }
+                eleman.prev = temp.prev;
+                temp.prev.next = eleman;
+
+                eleman.next = temp;
+                temp.prev = eleman;
+
+            }
+
+        }
+    }
+
     void yazdir() {
         Node temp = head;
         System.out.print("Baş -> ");
