@@ -33,7 +33,7 @@ public class BagliListe {
     void arayaEkle(int indis, int data) {
 
         Node eleman = new Node(data);
-
+        
         if (head == null) {
             head = eleman;
             tail = eleman;
