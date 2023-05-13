@@ -66,9 +66,7 @@ public class BagliListe {
 
                 eleman.next = temp;
                 temp.prev = eleman;
-
             }
-
         }
     }
 
