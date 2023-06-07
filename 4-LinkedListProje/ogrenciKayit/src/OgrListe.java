@@ -69,16 +69,18 @@ public class OgrListe {
                         // anlamadım
                         temp2.next = temp.next;
                         System.out.println(numara + " numaralı öğrenci silindi ");
+                        break;
                     }
                     temp2 = temp;
                     temp = temp.next;
-                }
+                }                 
                 if (numara == temp.numara) {
-                    // anlamadım
                     temp2.next = null;
                     tail = temp2;
                     System.out.println(numara + " numaralı öğrenci silindi ");
                 }
+
+
 
             }
 
