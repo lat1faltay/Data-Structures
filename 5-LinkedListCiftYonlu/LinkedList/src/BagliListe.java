@@ -90,5 +90,4 @@ public class BagliListe {
         }
         System.out.println("Baş");
     }
-
 }
