@@ -15,7 +15,6 @@ public class Main {
             System.out.println("0. Çıkış");
             System.out.print("Seçiminiz: ");
             secim = scanner.nextInt();
-
             
             if(secim == 1){
                 System.out.println("Sayı: ");
