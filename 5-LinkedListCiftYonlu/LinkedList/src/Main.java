@@ -16,6 +16,7 @@ public class Main {
             System.out.print("Seçiminiz: ");
             secim = scanner.nextInt();
 
+            
             if(secim == 1){
                 System.out.println("Sayı: ");
                 sayi = scanner.nextInt();
