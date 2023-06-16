@@ -17,6 +17,7 @@ public class BagliListe {
         }
     }
 
+    
     void sonaEkle(int data) {
         Node eleman = new Node(data);
 
